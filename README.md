@@ -4,7 +4,7 @@ Submitted by: **Dan Sevalie-Gborie**
 
 **BitFit** is a health metrics app that allows users to track what they eat (food + calories), how much water they drink, how long they sleep and how they feel each day — with an optional daily photo. Everything is stored locally in a Room (SQLite) database, so the app works fully offline and remembers every entry between launches. A dashboard shows averages, streaks, goal progress and interactive trend charts.
 
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
@@ -60,14 +60,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+[Watch the Video](https://youtube.com/watch?v=Lp_f9I2oiD8/edit)
 
 ## Screenshots
 
