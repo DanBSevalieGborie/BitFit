@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">BitFit</string>
+
+    <!-- Tabs -->
+    <string name="nav_entries">Entries</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+    <string name="tab_entries_subtitle">Your daily log</string>
+    <string name="tab_dashboard_subtitle">Averages &amp; trends</string>
+    <string name="tab_settings_subtitle">Goals, reminders &amp; data</string>
+    <string name="log_today">Log today</string>
+    <string name="add_entry">Add entry</string>
+    <string name="navigate_up">Navigate up</string>
+
+    <!-- Entries list -->
+    <string name="search_hint">Search foods or notes</string>
+    <plurals name="entries_header">
+        <item quantity="one">%1$d entry · %2$s cal today</item>
+        <item quantity="other">%1$d entries · %2$s cal today</item>
+    </plurals>
+    <string name="empty_title">No entries yet</string>
+    <string name="empty_body">Log what you ate, how much water you drank, how you slept and how you feel. Your entries are saved on your phone — even offline.</string>
+    <string name="empty_search_title">No matches</string>
+    <string name="empty_search_body">Try a different search.</string>
+    <string name="empty_action">Log your first day</string>
+    <string name="item_water">💧 %1$d</string>
+    <string name="item_sleep">😴 %1$sh</string>
+    <string name="item_mood">%1$s</string>
+    <string name="calories_unit">cal</string>
+    <string name="item_content_description">%1$s, %2$d calories, %3$s</string>
+    <string name="entry_deleted">Deleted \"%1$s\"</string>
+    <string name="undo">Undo</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <!-- Entry screen -->
+    <string name="new_entry">New entry</string>
+    <string name="edit_entry">Edit entry</string>
+    <string name="save_entry">Save entry</string>
+    <string name="update_entry">Update entry</string>
+    <string name="entry_saved">Entry saved ✅</string>
+    <string name="section_food">🍽  Nutrition</string>
+    <string name="section_water">💧  Water</string>
+    <string name="section_sleep">😴  Sleep</string>
+    <string name="section_mood">✨  Mood</string>
+    <string name="section_photo">📸  Daily photo</string>
+    <string name="section_notes">📝  Notes</string>
+    <string name="date_label">Date</string>
+    <string name="pick_date">Entry date</string>
+    <string name="food_hint">What did you eat?</string>
+    <string name="calories_hint">Calories</string>
+    <string name="notes_hint">How was your day? (optional)</string>
+    <string name="error_food">Please enter what you ate</string>
+    <string name="error_calories">Please enter calories</string>
+    <string name="error_calories_range">Calories must be between 0 and 20,000</string>
+    <plurals name="cups">
+        <item quantity="one">%d cup</item>
+        <item quantity="other">%d cups</item>
+    </plurals>
+    <string name="cups_value">%d cups</string>
+    <string name="hours_value">%1$s h</string>
+    <string name="hours_short">%1$sh</string>
+    <string name="not_logged">Not logged</string>
+    <string name="sleep_help">Slide to 0 to skip</string>
+    <string name="mood_awful">Awful</string>
+    <string name="mood_bad">Meh</string>
+    <string name="mood_okay">Okay</string>
+    <string name="mood_good">Good</string>
+    <string name="mood_great">Great</string>
+    <string name="take_photo">Camera</string>
+    <string name="pick_photo">Gallery</string>
+    <string name="remove_photo">Remove</string>
+    <string name="photo_empty">Add a photo of your meal, workout or day</string>
+    <string name="photo_description">Daily photo, tap to view full screen</string>
+    <string name="photo_full_description">Daily photo, tap to close</string>
+    <string name="photo_failed">Couldn\'t load that photo</string>
+    <string name="no_camera">No camera app available</string>
+    <string name="delete">Delete</string>
+    <string name="delete_entry_title">Delete this entry?</string>
+    <string name="delete_entry_message">This can\'t be undone.</string>
+
+    <!-- Dashboard -->
+    <string name="range_week">7 days</string>
+    <string name="range_month">30 days</string>
+    <string name="range_all">All time</string>
+    <string name="today_title">Today</string>
+    <string name="today_calories">%1$s / %2$s cal</string>
+    <string name="today_remaining">%1$s cal left to reach your goal</string>
+    <string name="today_over_goal">%1$s cal over your goal</string>
+    <string name="today_water">%1$d / %2$d cups of water</string>
+    <string name="streak_title">Streak</string>
+    <plurals name="streak_days">
+        <item quantity="one">🔥 %d day</item>
+        <item quantity="other">🔥 %d days</item>
+    </plurals>
+    <string name="best_streak">Best: %d</string>
+    <string name="stats_title_week">Last 7 days</string>
+    <string name="stats_title_month">Last 30 days</string>
+    <string name="stats_title_all">All time</string>
+    <string name="stat_avg_calories">Cal / day</string>
+    <string name="stat_min_calories">Lowest day</string>
+    <string name="stat_max_calories">Highest day</string>
+    <string name="stat_avg_water">Cups / day</string>
+    <string name="stat_avg_sleep">Avg sleep</string>
+    <string name="stat_avg_mood">Avg mood</string>
+    <string name="stat_days_logged">Days logged</string>
+    <string name="stat_over_goal">Days over goal</string>
+    <string name="trend_title">Trends</string>
+    <string name="trend_hint">Tap or drag on the chart to see values</string>
+    <string name="trend_change">%1$s %2$d%% vs. previous 7 days</string>
+    <string name="metric_calories">Calories</string>
+    <string name="metric_water">Water</string>
+    <string name="metric_sleep">Sleep</string>
+    <string name="metric_mood">Mood</string>
+    <string name="chart_empty">No data in this range yet</string>
+    <string name="chart_goal_value">Goal %1$s</string>
+    <string name="chart_content_description">Trend chart with %1$d days of data, ranging from %2$s to %3$s</string>
+    <string name="dashboard_empty_title">Your dashboard is waiting</string>
+    <string name="dashboard_empty_body">Add a few entries to see averages, streaks and trends. Tip: Settings → \"Add sample entries\" fills in 30 days of demo data.</string>
+
+    <!-- Settings -->
+    <string name="pref_goals">Daily goals</string>
+    <string name="pref_calorie_goal">Calorie goal</string>
+    <string name="pref_water_goal">Water goal (cups)</string>
+    <string name="pref_sleep_goal">Sleep goal (hours)</string>
+    <string name="goal_invalid">Please enter a number greater than 0</string>
+    <string name="pref_reminders">Reminders</string>
+    <string name="pref_reminder_enabled">Daily reminder</string>
+    <string name="pref_reminder_enabled_summary">Nudges you only if you haven\'t logged today</string>
+    <string name="reminder_time">Reminder time</string>
+    <string name="reminder_set">Reminder set for %1$s</string>
+    <string name="reminder_permission_denied">Notifications are off for BitFit. Enable them in system settings to get reminders.</string>
+    <string name="reminder_channel_name">Daily reminder</string>
+    <string name="reminder_channel_description">Reminds you to log your day in BitFit</string>
+    <string name="reminder_title">How was your day? 🌱</string>
+    <string name="reminder_text">You haven\'t logged today yet — it only takes a few seconds.</string>
+    <string name="pref_appearance">Appearance</string>
+    <string name="pref_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="pref_data">Your data</string>
+    <string name="export_csv">Export entries (CSV)</string>
+    <string name="export_csv_summary">Share a spreadsheet of all your entries</string>
+    <string name="export_subject">My BitFit entries</string>
+    <string name="export_empty">Nothing to export yet</string>
+    <string name="sample_data">Add sample entries</string>
+    <string name="sample_data_summary">Fill in ~30 days of demo data to try the dashboard</string>
+    <string name="sample_data_title">Add sample entries?</string>
+    <string name="sample_data_message">This adds about 30 days of made-up demo entries. You can delete them later with \"Delete all entries\".</string>
+    <string name="sample_data_added">Sample entries added</string>
+    <string name="add">Add</string>
+    <string name="clear_all">Delete all entries</string>
+    <string name="clear_all_summary">Removes every entry and photo from this device</string>
+    <string name="clear_title">Delete everything?</string>
+    <string name="clear_message">All entries and daily photos will be permanently deleted.</string>
+    <string name="delete_everything">Delete everything</string>
+    <string name="cleared">All entries deleted</string>
+    <string name="pref_about">About</string>
+    <string name="version">Version</string>
+    <string name="version_summary">BitFit %1$s · CodePath AND102 Unit 5</string>
+</resources>

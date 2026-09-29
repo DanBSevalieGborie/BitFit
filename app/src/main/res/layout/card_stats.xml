@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/stats_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="4dp"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            tools:text="Last 7 days" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_avg_calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="@color/metric_calories"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_avg_calories"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_min_calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="@color/metric_calories"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_min_calories"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_max_calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="@color/metric_calories"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_max_calories"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_avg_water"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="@color/metric_water"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_avg_water"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_avg_sleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="@color/metric_sleep"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_avg_sleep"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_avg_mood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="@color/metric_mood"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_avg_mood"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_days_logged"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="?attr/colorPrimary"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_days_logged"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+            <LinearLayout style="@style/Widget.BitFit.StatTile">
+                <TextView
+                    android:id="@+id/stat_over_goal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatValue"
+                    android:textColor="?attr/colorError"
+                    tools:text="—" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stat_over_goal"
+                    android:textAppearance="@style/TextAppearance.BitFit.StatLabel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_goals" app:iconSpaceReserved="false">
+        <EditTextPreference
+            app:key="calorie_goal"
+            app:title="@string/pref_calorie_goal"
+            app:defaultValue="2000"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            app:key="water_goal"
+            app:title="@string/pref_water_goal"
+            app:defaultValue="8"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            app:key="sleep_goal"
+            app:title="@string/pref_sleep_goal"
+            app:defaultValue="8"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_reminders" app:iconSpaceReserved="false">
+        <SwitchPreferenceCompat
+            app:key="reminder_enabled"
+            app:title="@string/pref_reminder_enabled"
+            app:summary="@string/pref_reminder_enabled_summary"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <Preference
+            app:key="reminder_time"
+            app:title="@string/reminder_time"
+            app:dependency="reminder_enabled"
+            app:persistent="false"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_appearance" app:iconSpaceReserved="false">
+        <ListPreference
+            app:key="theme"
+            app:title="@string/pref_theme"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:defaultValue="system"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_data" app:iconSpaceReserved="false">
+        <Preference
+            app:key="export_csv"
+            app:title="@string/export_csv"
+            app:summary="@string/export_csv_summary"
+            app:persistent="false"
+            app:iconSpaceReserved="false" />
+        <Preference
+            app:key="sample_data"
+            app:title="@string/sample_data"
+            app:summary="@string/sample_data_summary"
+            app:persistent="false"
+            app:iconSpaceReserved="false" />
+        <Preference
+            app:key="clear_all"
+            app:title="@string/clear_all"
+            app:summary="@string/clear_all_summary"
+            app:persistent="false"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_about" app:iconSpaceReserved="false">
+        <Preference
+            app:key="version"
+            app:title="@string/version"
+            app:persistent="false"
+            app:selectable="false"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
