@@ -4,9 +4,9 @@ Submitted by: **Dan Sevalie-Gborie**
 
 **BitFit** is a health metrics app that allows users to track what they eat (food + calories), how much water they drink, how long they sleep and how they feel each day — with an optional daily photo. Everything is stored locally in a Room (SQLite) database, so the app works fully offline and remembers every entry between launches. A dashboard shows averages, streaks, goal progress and interactive trend charts.
 
-Time spent: **20** hours spent in total
+Time spent: **20** hours spent in total (20 Part 1, 30 Minutes Part 2 [all features were already added])
 
-## Required Features
+## Required Features - Part 1
 
 The following **required** functionality is completed:
 
@@ -55,6 +55,47 @@ The following **additional** features are implemented:
 * [x] Accessibility: content descriptions on images, chart and list items
 * [x] **MVVM architecture**: Room DAO → Kotlin `Flow` → ViewModel → UI, so the database is the single source of truth and the list/dashboard update automatically
 * [x] **Automated tests** (`./gradlew test`): stats/averages/streak math, the Room DAO (in-memory database), and end-to-end "create entry → saved in DB → shown in the list/dashboard" flows
+
+
+## Required Features - Part 2
+
+The following **required** functionality is completed:
+
+- [x] **Use at least 2 Fragments**
+  - The app uses three: Entries, Dashboard and Settings
+- [x] **Create a new dashboard fragment where users can see a summary of their entered data**
+  - Shows averages, lowest and highest day, current and best logging streak, and today's progress toward daily goals
+- [x] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+  - BottomNavigation with Entries, Dashboard and Settings tabs; the selected tab is kept when the screen rotates
+
+The following **optional** features are implemented:
+
+- [x] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+  - Interactive trend chart for each metric over 7 days, 30 days or all time, with a goal line
+- [x] **Implement daily notifications to prompt users to fill in their data**
+  - Daily reminder at a time you choose in Settings; tapping it opens the new-entry screen
+  - "Send a test reminder" button to see the notification right away
+
+The following **additional** features are implemented:
+
+- [x] Tracks **4 metrics** in one entry: food + calories, water, sleep and mood (emoji mood picker)
+- [x] Optional **daily photo** with a full-screen photo viewer
+- [x] **Edit** any entry by tapping it, and **delete** it from the edit screen (with confirmation)
+- [x] **Swipe to delete** with an **Undo** option
+- [x] **Search** entries by food or notes
+- [x] **Daily goals** for calories, water and sleep (editable in Settings) with "Today" progress bars
+- [x] **Food autocomplete**: foods you've logged before are suggested and auto-fill their calories
+- [x] **Date picker** to log or back-date entries (future dates are blocked)
+- [x] **Export all entries to CSV** and share them
+- [x] **"Add sample entries"** button that fills in ~30 days of demo data, plus **"Delete all entries"**
+- [x] **Light / Dark / System theme** picker
+- [x] **Landscape layouts**: the entries list switches to a 2-column grid, and typed-in form data survives rotation
+- [x] Input validation with inline error messages
+- [x] Friendly empty states for the list, search results and dashboard
+- [x] Custom app icon and splash screen
+- [x] Animations: list items animate in, charts draw themselves in, the "Log today" button collapses while scrolling
+- [x] **Automated tests**: 18 unit tests covering the averages/streak math, the Room DAO, and the create-entry → database → list flow
+
 
 ## Video Walkthrough
 
